@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+   
+    <h1>Operators & Expressions</h1>
+    <br />
+    <p>1
+      You are provided with two numbers A and B . Your task is to add these two
+      numbers.
+    </p>
+    <pre>
+            const AddTwoNumbers = (a,b) => {
+                return a+b
+            };
+            
+            AddTwoNumbers(2,5)
+        </pre
+    >
+    <br />
+    <p>2
+      You are given two number first as A and second as B and check if both
+      conditions ( A < 10 and A> B ) are satisfied or not with the help of
+      operators.
+    </p>
+    <pre>
+                const Is_Valid = (a,b) => {
+
+                    if (a<10 && a>b) {
+                    return "true"
+                        
+                    } else{
+                     return "false"
+                    }
+                  
+                };
+            </pre
+    >
+    <br />
+    <p>3
+      You are given two numbers A and B . You need to do the following checks:
+    </p>
+    <pre>
+            const Check = (A, B) => 
+{
+   
+      var d=false;
+      var c=true;
+      if(A%10==0 && B%10==0){
+        return c
+      } 
+      else if(A%10!=0 && B%10!=0){
+        return d
+      }
+      else if (A%10==0 || B%10==0){
+        return c
+      }
+      else {
+        return d
+      }
+};
+        </pre
+    >
+    <br />
+
+    <p>4
+      You are provided a four digit number N only. Your task is to print out the
+      first digit of that number.
+    </p>
+    <pre>
+const First_Digit = (n) => {
+  
+        while (n >= 10){
+              n=n /10;
+        }
+          return Math.floor(n);
+    
+     
+  };</pre
+    ><br>
+
+
+    <p>5 You are provided a four digit number N only. Your task is to print out the last digit of that number.
+
+Note: You have to complete Last_Digit function. No need to take any input.</p>
+
+<pre>const Last_Digit = (n) => {
+   
+    return Math.floor(n % 10);
+};</pre>
+<br>
+<p>6 You are provided with two numbers 
+A
+ and 
+B
+ where 
+A
+ as  divisor and 
+B
+ as  dividend.Your task is find the remainder.</p>
+ <pre>const Find_the_remainder = (a,b) => {
+    
+  let n= b%a
+  return n
+};</pre><br>
+<p>7 You are provided with two numbers 
+A
+ and 
+B
+. Your task is to multiply these two numbers.
+
+Note: You have to complete Multiply_two_number function. No need to take any input</p>
+<pre>const Multiply_two_number = (a,b) => {
+    n=a*b
+    return n
+};
+</pre><br>
+<p> 8 Shyam has got his marks in three subjects as 
+A
+, 
+B
+, and 
+C
+ (out of 100).Write a program to calculate his total marks and his average.</p>
+ <pre>const Sum = (A, B, C) => 
+{
+ let sum = A+B+C
+ return sum
+};
+
+const Average = (A, B, C) => 
+{
+let avg=(A+B+C)/3
+return avg
+};</pre>
+</body>
+</html>
